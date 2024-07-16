@@ -1,0 +1,53 @@
+.main div {
+    margin-left: 30px;
+}
+.abc {
+    border: 5px solid black;
+    height: 400px;
+    width: 330px;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    display: grid;
+justify-content: center;
+grid-template-columns: repeat(auto-fit minmax (270px 1fr));
+box-shadow: 10px 10px 5px rgb(148, 142, 142);
+float: left;
+}
+img {
+    height: 100px;
+    width:100px;
+}
+div p {
+    text-align: justify;
+}
+div h1 {
+    text-decoration: underline ;
+    text-transform: uppercase;
+    text-align: center;
+}
+div button {
+    text-transform: uppercase;
+    text-align: center;
+}
+div img {
+    margin: auto;
+}
+.a {
+    background-color: white;
+}
+.b {
+    background-color: rgb(250, 94, 195);
+}
+.abc a button {
+    background-color: black;
+    color: white;
+}
+.aa {
+background-color: black;
+color: white;
+}
+.zz {
+    background-color: rgb(208, 112, 205);
+color: rgb(253, 195, 246);
+}
